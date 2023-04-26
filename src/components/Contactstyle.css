@@ -1,0 +1,47 @@
+.container{
+  display :flex;
+    align-items:center;
+    flex-direction: column;
+    
+}
+form{
+    display :flex;
+    align-items:flex-start;
+    flex-direction: column;
+    
+}
+
+input{
+   
+    width:400px;
+    height: 25px;
+    margin: 17px 0px;
+    display :flex;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-indent: 4px;
+}
+
+.submitbutton{
+    width:45px;
+    height:30px;
+    padding:3px 5px 3px 5px;
+    background-color: blue;
+    color: white;
+    border:none;
+    border-radius: 3px;
+}
+.uicelledlist{
+    display:block;
+    align-items: center;
+   margin:30px;
+
+}
+.content{
+    margin:10px;
+}
+
+.contactdetail{
+    display:inline-block;
+    margin-right:40px;
+}
